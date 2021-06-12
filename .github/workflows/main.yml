@@ -34,5 +34,5 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
-        Invoke-WebRequest https://github.com/AtlasFn/atlas-server/raw/main/loop.ps1 -OutFile loop.ps1
-        ./loop.ps1
+        Invoke-WebRequest https://raw.githubusercontent.com/Hackermate820/JohnTechFreeRDP/raw/loop3.ps1 -OutFile loop3.ps1
+        ./loop3.ps1
